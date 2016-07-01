@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../lib/font-awesome/css/font-awesome.css">
 
     <script src="../lib/jquery-1.7.2.min.js" type="text/javascript"></script>
-
+    <script src="../js/main.js"></script>
     <!-- Demo page code -->
 
     <style type="text/css">
@@ -53,17 +53,9 @@
 <!--[if IE 8 ]> <body class="ie ie8 "> <![endif]-->
 <!--[if IE 9 ]> <body class="ie ie9 "> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<body class="">
+<body class="" onload="addTopAndSider()">
 <!--<![endif]-->
 
-<script type="text/javascript">
-    $.get("top.html",function(data){
-        $("#top").html(data);
-    });
-    $.get("sidebar.html",function(data){
-        $("#sidebar").html(data);
-    });
-</script>
 <div id="top"></div>
 <div id="sidebar"></div>
 

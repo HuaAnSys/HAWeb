@@ -36,7 +36,7 @@ var getDomestic = function(currPage, limit, total){
                 $("#domesticList").append(
                     "<tr>" + "<td>" + (i + 1) + "</td>"
                     + "<td>" + domesticList[i].comName + "</td>"
-                    + "<td width='700px'>" + domesticList[i].comAddress + "</td>"
+                    + "<td>" + domesticList[i].comAddress + "</td>"
                     + "<td>" + domesticList[i].comTel + "</td>"
                     + "<td>" + "<a href='user.html'>" + "<i class='icon-pencil'>" + "</i>" + "</a>" + " <a href='#myModal' role='button' data-toggle='modal'>" + "<i class='icon-remove'>" + "</i>" + "</a>" + "</td>"
                     + "</tr>");
